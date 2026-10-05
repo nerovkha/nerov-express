@@ -1,0 +1,447 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+} */
+/* 
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+
+/* .register-form {
+  background: white;
+  width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+} */
+
+/* .register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0f172a;
+} */
+
+/* .register-form input,
+.register-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+} */
+
+/* .register-form button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+} */
+
+/* .register-form button:hover {
+  background: #1d4ed8;
+} */ 
+
+/* CustomerDashboard */
+
+/* .dashboard-container {
+  min-height: 100vh;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+} */
+
+/* .dashboard-card {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+} */
+
+
+
+/* .dashboard-card h1 {
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 25px;
+}
+
+.dashboard-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+} */
+
+/* .dashboard-card label {
+  display: block;
+  margin-bottom: 6px;
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 14px;
+} */
+
+/* .dashboard-card input,
+.dashboard-card select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  background: white;
+}
+
+.dashboard-card input[type="date"],
+.dashboard-card input[type="time"] {
+  font-family: Arial, sans-serif;
+  color: #374151;
+}
+/* .dashboard-card label {
+  display: block;
+  margin-bottom: 6px;
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 14px;
+} */
+
+
+/* .pickup-date,
+.pickup-time {
+  display: block;
+  margin-bottom: 8px;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dashboard-card input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.dashboard-card h3 {
+  text-align: center;
+  color: #2563eb;
+  margin: 20px 0;
+}
+
+.dashboard-card button {
+  width: 100%;
+  padding: 14px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dashboard-card button:hover {
+  background: #1d4ed8;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.button-group button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.accept-btn {
+  background: #2563eb;
+}
+
+.accept-btn:hover {
+  background: #1d4ed8;
+}
+
+.reject-btn {
+  background: #dc2626;
+}
+
+.reject-btn:hover {
+  background: #b91c1c;
+}
+
+.complete-btn {
+  background: #16a34a;
+  margin-top: 10px;
+}
+
+.complete-btn:hover {
+  background: #15803d;
+} */
+ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+/* Register Page */
+
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form {
+  background: white;
+  width: 400px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0f172a;
+  font-size: 32px;
+}
+
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.register-form input:focus,
+.register-form select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.3);
+}
+
+.register-form button {
+  width: 100%;
+  padding: 14px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.register-form button:hover {
+  background: #1d4ed8;
+}
+
+/* Customer Dashboard */
+
+.dashboard-container {
+  min-height: 100vh;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.dashboard-card {
+  width: 90%;
+  max-width: 850px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-card h1 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 35px;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+/* Centers the form inside the card */
+
+.dashboard-card form {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.dashboard-card input,
+.dashboard-card select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  background: white;
+}
+
+.dashboard-card input:focus,
+.dashboard-card select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.3);
+}
+
+/* Date & Time Labels */
+
+.pickup-date,
+.pickup-time {
+  display: block;
+  margin-bottom: 8px;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Date & Time Inputs */
+
+.dashboard-card input[type="date"],
+.dashboard-card input[type="time"] {
+  color: #374151;
+  font-family: Arial, sans-serif;
+}
+
+/* Fare */
+
+.dashboard-card h3 {
+  text-align: center;
+  color: #2563eb;
+  margin: 25px 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Booking Button */
+
+.dashboard-card button {
+  width: 100%;
+  padding: 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dashboard-card button:hover {
+  background: #1d4ed8;
+}
+
+
+/* Customer Dashboard */
+.demo-routes {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.demo-routes h4 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.demo-routes ul {
+  padding-left: 20px;
+}
+
+.demo-routes li {
+  margin-bottom: 5px;
+  color: #475569;
+  font-size: 14px;
+}
+
+.distance-display {
+  text-align: center;
+  margin: 15px 0;
+  padding: 12px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  color: #2563eb;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* Driver Dashboard */
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.button-group button {
+  flex: 1;
+}
+
+.accept-btn {
+  background: #2563eb;
+}
+
+.accept-btn:hover {
+  background: #1d4ed8;
+}
+
+.reject-btn {
+  background: #dc2626;
+}
+
+.reject-btn:hover {
+  background: #b91c1c;
+}
+
+.complete-btn {
+  background: #16a34a;
+  margin-top: 10px;
+}
+
+.complete-btn:hover {
+  background: #15803d;
+}
